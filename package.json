@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.1",
+  "description": "frontend resources for gur",
+  "scripts": {
+    "dev": "rspack",
+    "build": "rspack --mode production",
+    "watch": "rspack --watch"
+  },
+  "keywords": [
+    "frontend",
+    "gur",
+    "bundler"
+  ],
+  "author": "Pu Xingyu",
+  "devDependencies": {
+    "@rspack/cli": "^1.2.6",
+    "@rspack/core": "^1.2.6",
+    "@tailwindcss/postcss": "^4.0.9",
+    "autoprefixer": "^10.4.20",
+    "cross-env": "^7.0.3",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^4.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
